@@ -1,4 +1,4 @@
-# Python-Beginner-Projects
+# Python Beginner Projects
 Example Projects For Beginners To Learn Python
 
 Written by Alexander Laurence
