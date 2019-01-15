@@ -25,12 +25,10 @@ message = {
 # create function to decide the winner
 def decide_winner(user_choice, computer_choice):
     # print what the user selected
-    print("You selected: %s."
-          % user_choice)
+    print("You selected: %s." % user_choice)
 
     # print what the computer selected
-    print("Computer selected: %s."
-          % computer_choice)
+    print("Computer selected: %s." % computer_choice)
 
     # if human = computer then game is tied
     if user_choice == computer_choice:
