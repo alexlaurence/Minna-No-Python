@@ -30,7 +30,3 @@ def calculate():
 
 # call the function
 calculate()
-
-
-
-
