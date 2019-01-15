@@ -18,5 +18,5 @@ shots_onTarget = input("How many shots hit the target? ")
 print("Ok, so %s shots hit the target." % shots_offTarget)
 
 # the percentage accuracy
-shot_accuracy = shots_onTarget / (shots_onTarget + shots_offTarget)*100
+shot_accuracy = (shots_onTarget / (shots_onTarget + shots_offTarget))*100
 print("That means your shot accuracy was %s." % shot_accuracy)
