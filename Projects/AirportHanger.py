@@ -27,6 +27,5 @@ def calculate():
     else:
         print("There's still space in the hanger!")
 
-
 # call the function
 calculate()
