@@ -18,7 +18,7 @@ print("Thanks! There are currently %s airplanes in the hanger." % airplanes_in_h
 max_airplanes_in_hanger = input("How many airplanes can the hanger hold?")
 print("Thanks! The hanger can hold up to %s airplanes in the hanger." % max_airplanes_in_hanger)
 
-# define the function to calculate the space in the
+# define the function to calculate the space in the hanger
 def calculate():
     if airplanes_in_hanger >= max_airplanes_in_hanger:
         print("Hanger is full!")
