@@ -24,21 +24,27 @@ message = {
 
 # create function to decide the winner
 def decide_winner(user_choice, computer_choice):
+    # print what the user selected
     print("You selected: %s."
           % user_choice)
+
+    # print what the computer selected
     print("Computer selected: %s."
           % computer_choice)
+
+    # if human = computer then game is tied
     if user_choice == computer_choice:
         print(message["tie"])
-    # if rock vs scissors
+    # if rock vs scissors then game is won
     elif user_choice == options[0] and computer_choice == options[2]:
         print(message["won"])
-    # if paper vs rock
+    # if paper vs rock then game is won
     elif user_choice == options[1] and computer_choice == options[0]:
         print(message["won"])
-    # if scissors vs paper
+    # if scissors vs paper then game is won
     elif user_choice == options[2] and computer_choice == options[1]:
         print(message["won"])
+    # else the game is lost
     else:
         print(message["lose"])
 
