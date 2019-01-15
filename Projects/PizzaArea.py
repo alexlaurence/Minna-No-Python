@@ -10,6 +10,7 @@ Website: www.celestial.tokyo
 """
 print("Pizza Area Calculator is running...")
 option = raw_input("What do you want to calculate? Enter 'whole' for the whole pizza or 'piece' for one piece: ")
+option = option.lower()
 
 if option == 'whole':
     radius = float(raw_input("Enter the radius: "))
