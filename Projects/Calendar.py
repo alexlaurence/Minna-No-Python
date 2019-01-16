@@ -14,7 +14,7 @@ Website: www.celestial.tokyo
 from time import sleep, strftime
 
 # store user's first name as a string
-USER_FIRST_NAME = "Gilberto"
+USER_FIRST_NAME = "Parly"
 
 # create empty dictionary
 calendar = {}
