@@ -128,4 +128,3 @@ def start_calendar():
 
 # call the function to start the app
 start_calendar()
-
