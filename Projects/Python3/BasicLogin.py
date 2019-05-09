@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 """
-This is a very basic login system
+This is a plaintext login system
 which logs the user in if the username
 and password correctly matches the data
 stored on the dictionary.
