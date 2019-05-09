@@ -2,7 +2,9 @@
 # -*- coding: utf-8 -*-
 
 """
-This app asks for total number of frames and prints each frame within a ranged loop
+This app asks for total number of frames
+and prints each frame within a ranged loop
+
 Author: Alexander A. Laurence
 Last modified: May 2019
 Website: www.celestial.tokyo
