@@ -2,10 +2,13 @@
 # -*- coding: utf-8 -*-
 
 """
-This app calculates the airplane hanger capacity
-for efficient day-to-day running of the airport
+This is a very basic login system
+which logs the user in if the username
+and password correctly matches the data
+stored on the dictionary.
+
 Author: Alexander A. Laurence
-Last modified: January 2019
+Last modified: May 2019
 Website: www.celestial.tokyo
 """
 
